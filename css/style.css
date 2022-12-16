@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+body{
+    background-color: #0E1323;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Rubik;
+}
+* {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: auto;
+}
+.container{
+    width: 1110px;
+    height: 518px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.track.profile {
+    background: #1C204B;
+    border-radius: 15px;
+    height: 503px;
+}
+.track .report{
+    background: #5747EA;
+    height: 354px;
+    border-radius: 15px;
+    padding: 37px 32px;
+} 
+.real{
+    display: flex;
+    justify-content: space-between;
+}
+.real .image{
+    width: 16px;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+.report img{
+    width: 78px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.report h6{
+    margin-top: 46px;
+    color: #BBC0FF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+.report h1{
+    font-weight: 300;
+    font-style: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    font-size: 40px;
+
+}
+.track .nav{        
+    height: 164px;
+    margin-left: 32px;
+    margin-top: 26px;
+}
+.track .nav h6{
+    color: #7078C9;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 21px;
+}
+.track .nav h5{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;1
+    margin-bottom: 21px;
+}
+.track .nav h4{
+    color: #7078C9;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 21px;
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    
+}
+.track .work{
+  position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 268px;
+    margin-left: 30px;
+    margin-bottom: 142px;
+    
+}
+
+.picture {
+    background: #FF8B64;
+    height: 160px;
+    width: 255px;
+    
+
+}
+.picture img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #FF8B64;
+}
+ 
+
+.track .hours {
+    position: absolute;
+    background-color: #1C204B;
+    border-radius: 15px ;
+    width: 255px;
+    margin-left:0px;
+    margin-top: 30px;
+    height: 199px;
+    margin-bottom: 62px;
+}
+
+.track .hours h1{
+    color: white;
+    font-size: 56px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 24px;
+    line-height: 66.36px;
+} 
+
+.track .hours h6{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 29px;
+}
+.track .hours p{
+    color:#BBC0FF;
+    font-size: 15px;
+    line-height: 17.78px;
+    margin-left: 31px;
+    font-weight: 400;
+    
+}
+.track .execise{
+    margin-top: 800px;
+    margin-bottom: 30px;
+}
+.table{
+    background: #4BCF82;
+    height: 160px;
+    width: 255px;
+    box-sizing: border-box;   
+
+}
+.execise .table img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #4BCF82;
+
+}
+.game{
+    background:#55C2E6;
+    height: 160px;
+    width: 228lpx;
+    box-sizing: border-box;
+}
+.play .game img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #55C2E6;
+}
+.track .social{
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+.social{
+    background: #7335D2;
+    height: 160px;
+    width: 255px;
+    box-sizing: border-box;
+}
+.social .society img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #7335D2;
+}
+.studied{
+    background:#FF5E7D;
+    height: 160px;
+    width: 255px;
+    box-sizing: border-box;
+}
+.study .studied img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #FF5E7D;
+}
+.track .me{
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+
+}
+.me{
+    background: #F1C75B;
+    height: 160px;
+    width: 245px;
+    box-sizing: border-box;
+}
+.track .person img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #F1C75B;
+
+}
