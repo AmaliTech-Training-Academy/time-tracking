@@ -15,15 +15,18 @@ body{
 h1,h2,h3,h4,h5,h6 {
     margin: auto;
 }
+
+
+
 .container{
     width: 1110px;
     height: 518px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+     grid-template-columns: repeat(4,1fr); 
     gap: 30px;
 }
 
-.track.profile {
+.track .profile {
     background: #1C204B;
     border-radius: 15px;
     height: 503px;
@@ -81,7 +84,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #ffff;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;1
+    line-height: 21px;
     margin-bottom: 21px;
 }
 .track .nav h4{
@@ -91,6 +94,18 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 21px;
     margin-bottom: 21px;
 
+}
+
+.nav .text-h:hover{
+    cursor: pointer;
+    color: white;
+
+}
+
+.second .hours:hover{
+    cursor: pointer;
+    background: #33397A;
+    
 }
 .second{
     display: flex;
@@ -234,3 +249,23 @@ h1,h2,h3,h4,h5,h6 {
     background: #F1C75B;
 
 }
+/* @media(max-width:375px){
+    .container{
+        flex-direction: column;
+    }
+    .track .profile{
+        margin-bottom: 1.5rem;
+        position: absolute;
+        width: 327px;
+        height: 203px;
+        
+    }
+    .second{
+        margin-left: 0;
+    }
+
+    .second .track {
+        width: 327px;
+height: 160px;
+    }
+} */
