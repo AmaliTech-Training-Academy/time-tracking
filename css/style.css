@@ -15,6 +15,9 @@ body{
 h1,h2,h3,h4,h5,h6 {
     margin: auto;
 }
+
+
+
 .container{
     width: 1110px;
     height: 518px;
@@ -28,6 +31,14 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 15px;
     height: 503px;
     margin-bottom: 26px;
+     grid-template-columns: repeat(4,1fr); 
+    gap: 30px;
+}
+
+.track .profile {
+    background: #1C204B;
+    border-radius: 15px;
+    height: 503px;
 }
 .track .report{
     background: #5747EA;
@@ -97,6 +108,21 @@ h1,h2,h3,h4,h5,h6 {
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
+}
+.nav .text-h:hover{
+    cursor: pointer;
+    color: white;
+
+}
+
+.second .hours:hover{
+    cursor: pointer;
+    background: #33397A;
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
     
 }
 .track .work{
@@ -180,7 +206,7 @@ h1,h2,h3,h4,h5,h6 {
 .game{
     background:#55C2E6;
     height: 160px;
-    width: 228px;
+    width: 228lpx;
     box-sizing: border-box;
 }
 .play .game img{
@@ -193,13 +219,18 @@ h1,h2,h3,h4,h5,h6 {
     margin-top: 110px;
     margin-bottom: 30px;
 }
-.trust{
+
+.track .social{
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+.social{
     background: #7335D2;
     height: 160px;
     width: 255px;
     box-sizing: border-box;
 }
-.trust .society img{
+.social .society img{
     margin-left: 150px;
     width: 78px;
     height: 78px;
@@ -219,6 +250,19 @@ h1,h2,h3,h4,h5,h6 {
    
 .person{
     background-color: #F1C75B;
+    background: #FF5E7D;
+}
+.track .me{
+    margin-top: 110px;
+    margin-bottom: 30px;
+
+
+}
+.me{
+    background: #F1C75B;
+    height: 160px;
+    width: 245px;
+    box-sizing: border-box;
 }
 .track .person img{
     margin-left: 150px;
@@ -354,3 +398,23 @@ width: 327px;
 }
 }
 
+/* @media(max-width:375px){
+    .container{
+        flex-direction: column;
+    }
+    .track .profile{
+        margin-bottom: 1.5rem;
+        position: absolute;
+        width: 327px;
+        height: 203px;
+        
+    }
+    .second{
+        margin-left: 0;
+    }
+
+    .second .track {
+        width: 327px;
+height: 160px;
+    }
+} */
