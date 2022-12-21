@@ -396,25 +396,25 @@ width: 327px;
     height: 78px;
     background: #7335D2;
 }
-}
-
-/* @media(max-width:375px){
-    .container{
-        flex-direction: column;
-    }
-    .track .profile{
-        margin-bottom: 1.5rem;
-        position: absolute;
-        width: 327px;
-        height: 203px;
-        
-    }
-    .second{
-        margin-left: 0;
     }
 
-    .second .track {
-        width: 327px;
-height: 160px;
+
+    @media only scree and (max-width:375px){
+        body{
+            width: 375px;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 45rem;
+        }
+        .track .report{
+            width:372px;
+            display: flex;
+            flex-direction: column;
+        }
     }
-} */
