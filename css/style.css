@@ -200,12 +200,19 @@ h1,h2,h3,h4,h5,h6 {
     width: 255px;
     box-sizing: border-box;
 }
-.social .society img{
-    margin-left: 150px;
+ .society {
+    background: #7335D2;
+    height: 160px;
+    width: 255px;
+    box-sizing: border-box;
+}
+.society img{
+     margin-left: 150px;
     width: 78px;
     height: 78px;
     background: #7335D2;
-}
+
+} 
 .studied{
     background:#FF5E7D;
     height: 160px;
@@ -225,7 +232,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 }
-.{
+    .person{
     background: #F1C75B;
     height: 160px;
     width: 245px;
