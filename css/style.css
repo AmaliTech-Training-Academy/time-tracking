@@ -39,16 +39,24 @@ h1,h2,h3,h4,h5,h6 {
     background: #1C204B;
     border-radius: 15px;
     height: 503px;
+    
 }
 .track .report{
     background: #5747EA;
-    height: 354px;
+    width: 255px;
+height: 354px;
     border-radius: 15px;
     padding: 37px 32px;
+    position: relative;
+    
+
 } 
+
+
 .real{
     display: flex;
     justify-content: space-between;
+   
 }
 .real .image{
     width: 16px;
@@ -77,11 +85,32 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 40px;
 
 }
-.track .nav{        
+
+
+ .track .nav{
+    background-color: #1C204B;
+    width: 255px;
+    height: 150px;
+border-radius: 20px;
+padding: 25px;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+margin-top: 0;
+
+
+
+}
+
+.nav .txt-h{
+    margin-bottom: 25px ;
+}
+/* .track .nav{        
     height: 164px;
     margin-left: 32px;
     margin-top: 26px;
-}
+} */
 .track .nav h6{
     color: #7078C9;
     font-weight: 400;
@@ -160,6 +189,7 @@ h1,h2,h3,h4,h5,h6 {
     height: 199px;
     margin-bottom: 62px;
 }
+
 
 .track .hours h1{
     color: white;
