@@ -387,9 +387,31 @@ font-size: 32px;
     margin-bottom: 320px;
     height: 160px;  
     margin-bottom: 20px; 
+    margin-top: 20px;
 
+}
+.studied{
+  background: #FF5E7D;
+    height: 160px;
+    width: 320px;
+    box-sizing: border-box;   
+
+}
+    
 }
 .society{
     background: ;
+
 }
+.track .hours{
+    width: 327px;
+}
+.hours .real{
+    display: flex;
+}
+.hours .time{
+    display: flex;
+}
+.hours .time h1{
+    font-size: 32px;
 }
