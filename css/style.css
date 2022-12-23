@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .trust .society img{
     margin-left: 150px;
-    width: 78pxtr.trust
+    width: 78px;
     height: 78px;
     background: #7335D2;
 }
@@ -379,4 +379,33 @@ font-size: 32px;
    box-sizing: border-box;
 
 }
+
+
+.society {
+    background: #7335D2;
+
+    height: 160px;
+    width: 320px;
+    
+
+}
+.society img{
+    margin-left: 30px;
+    width: 78px;
+    height: 78px;
+    background: #7335D2;
+    
+}
+
+.studied{
+    background:#FF5E7D;
+    height: 160px;
+    width: 320px;
+    box-sizing: border-box;
+}
+.study .studied img{
+    margin-left: 150px;
+    width: 78px;
+    height: 78px;
+    background: #FF5E7D 
 }
