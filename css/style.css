@@ -189,7 +189,7 @@ h1,h2,h3,h4,h5,h6 {
     height: 78px;
     background: #55C2E6;
 }
-.track .trust{
+.track .trust, .self{
     margin-top: 110px;
     margin-bottom: 30px;
 }
@@ -199,9 +199,9 @@ h1,h2,h3,h4,h5,h6 {
     width: 255px;
     box-sizing: border-box;
 }
-.social .society img{
+.trust .society img{
     margin-left: 150px;
-    width: 78px;
+    width: 78pxtr.trust
     height: 78px;
     background: #7335D2;
 }
@@ -217,17 +217,8 @@ h1,h2,h3,h4,h5,h6 {
     height: 78px;
     background: #FF5E7D;}
    
-.track .Self{
-    margin-top: 110px;
-    margin-bottom: 30px;
-
-
-}
-.{
-    background: #F1C75B;
-    height: 160px;
-    width: 245px;
-    box-sizing: border-box;
+.person{
+    background-color: #F1C75B;
 }
 .track .person img{
     margin-left: 150px;
@@ -380,7 +371,12 @@ font-size: 32px;
     margin-bottom: 20px; 
 
 }
-.society{
-    background: ;
+.teach{
+    
+   background:#55C2E6;
+   height: 160px;
+   width: 320px;
+   box-sizing: border-box;
+
 }
 }
