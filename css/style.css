@@ -252,6 +252,7 @@ h1,h2,h3,h4,h5,h6 {
         flex-direction: column;
         margin-bottom: 120px;
         height: 160px;
+        order: 1;
     }
     
     .report .image{
@@ -273,18 +274,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: 32px;
     margin-top: -196px;
     display: flex;
-
-<<<<<<< HEAD
-    @media only scree and (max-width:375px){
-        body{
-            width: 375px;
-            display: block;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            top: 45rem;
-        }
-=======
+   
 }
 .track .hours{
     width: 327px;
@@ -303,7 +293,6 @@ font-size: 32px;
 .track .hours p{
     margin-top: 26px;
 }
->>>>>>> c3d6e2ab6b181d2334c739ce57cb7dc92158ee44
 
 
 
@@ -334,6 +323,7 @@ font-size: 32px;
     margin-bottom: 320px;
     height: 160px;  
     margin-bottom: 20px; 
+    order: 2;
 }
 .table{
        background: #4BCF82;
@@ -354,7 +344,8 @@ font-size: 32px;
     display: flex;
     flex-direction: column;
     margin-bottom: 620px;
-    height: 160px;   
+    height: 160px;
+    order: 3;   
 }
 
 .game{
@@ -381,6 +372,7 @@ font-size: 32px;
     margin-bottom: 320px;
     height: 160px;  
     margin-bottom: 20px; 
+    order: 4;
 
 }
 .teach{
@@ -398,7 +390,7 @@ font-size: 32px;
 
     height: 160px;
     width: 320px;
-    
+    order: 5;
 
 }
 .society img{
@@ -414,10 +406,12 @@ font-size: 32px;
     height: 160px;
     width: 320px;
     box-sizing: border-box;
+    order: 6;
 }
 .study .studied img{
     margin-left: 150px;
     width: 78px;
     height: 78px;
     background: #FF5E7D 
+}
 }
