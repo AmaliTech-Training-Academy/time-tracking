@@ -253,6 +253,12 @@ h1,h2,h3,h4,h5,h6 {
     @media only scree and (max-width:375px){
         body{
             width: 375px;
+            display: block;
+            ;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 45rem;
         }
 
         .container{
