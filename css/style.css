@@ -295,7 +295,7 @@ font-size: 32px;
 }
 
 .track .work{
-    order: 1;
+    order: 2;
 }
 
 .picture {
@@ -415,4 +415,12 @@ font-size: 32px;
     width: 78px;
     height: 78px;
     background: #FF5E7D 
+}
+
+.track .person img{
+    margin-left: 250px;
+    width: 78px;
+    height: 78px;
+    background: #F1C75B;
+}
 }
