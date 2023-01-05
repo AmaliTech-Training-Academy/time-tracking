@@ -245,6 +245,7 @@ h1,h2,h3,h4,h5,h6 {
        position: relative;
        top: 45rem;
        margin-top: -1690px;
+       width: 375px;
     }
   .track  .report{
         width: 372px;
@@ -389,8 +390,8 @@ font-size: 32px;
     
 
 }
-.society img{
-    margin-left: 30px;
+.trust .society img{
+    margin-left: 250px;
     width: 78px;
     height: 78px;
     background: #7335D2;
@@ -404,8 +405,17 @@ font-size: 32px;
     box-sizing: border-box;
 }
 .study .studied img{
-    margin-left: 150px;
+    margin-left: 250px;
     width: 78px;
     height: 78px;
     background: #FF5E7D 
+}
+.track .person img{
+    width: 78px;
+    margin-left: 250px;
+    height: 78px;
+    background: #F1C75B
+} 
+.time{
+    margin-right: 24px;
 }
