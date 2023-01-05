@@ -317,6 +317,52 @@ font-size: 32px;
 
 }
 
+.track .play{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 620px;
+    height: 160px;
+    order: 3;   
+}
+
+.game{
+   background:#55C2E6;
+    height: 160px;
+    width: 320px;
+    box-sizing: border-box;
+
+}
+
+.play .game img{
+    margin-left: 250px;
+    width: 78px;
+    height: 78px;
+    background: #55C2E6;
+}
+.track .study{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 620px;
+    height: 160px;
+    order: 4;
+}
+
+.studied{
+    background:#FF5E7D;
+    height: 160px;
+    width: 320px;
+    box-sizing: border-box;
+    order: 6;
+}
+.study .studied img{
+    margin-left: 250px;
+    width: 78px;
+    height: 78px;
+    background: #FF5E7D 
+}
+
 .track .execise{
  
     width: 372px;
@@ -341,50 +387,6 @@ font-size: 32px;
         background: #4BCF82;
         width: 160px;
 }
-.track .play{
-    width: 372px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 620px;
-    height: 160px;
-    order: 3;   
-}
-
-.game{
-   background:#55C2E6;
-    height: 160px;
-    width: 320px;
-    box-sizing: border-box;
-
-}
-
-.play .game img{
-    margin-left: 250px;
-    width: 78px;
-    height: 78px;
-    background: #55C2E6;
-}
-
-
-.track .study{
- 
-    width: 372px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 320px;
-    height: 160px;  
-    margin-bottom: 20px; 
-    order: 4;
-
-}
-.teach{
-    
-   background:#55C2E6;
-   height: 160px;
-   width: 320px;
-   box-sizing: border-box;
-
-}
 
 
 .society {
@@ -400,23 +402,7 @@ font-size: 32px;
     width: 78px;
     height: 78px;
     background: #7335D2;
-    
 }
-
-.studied{
-    background:#FF5E7D;
-    height: 160px;
-    width: 320px;
-    box-sizing: border-box;
-    order: 6;
-}
-.study .studied img{
-    margin-left: 250px;
-    width: 78px;
-    height: 78px;
-    background: #FF5E7D 
-}
-
 .track .person img{
     margin-left: 250px;
     width: 78px;
