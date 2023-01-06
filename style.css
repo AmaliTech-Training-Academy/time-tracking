@@ -81,27 +81,29 @@ height: 354px;
  .track .nav{
     background-color: #1C204B;
     width: 255px;
-    height: 150px;
+    height: 200px;
+    margin-top: 20px;
 border-radius: 20px;
 padding: 25px;
 left: 0;
 right: 0;
 bottom: 0;
-z-index: 1;
-margin-top: 0;
-
-
+z-index: -1;
+margin-top: -51px;
 
 }
 
-.nav .txt-h{
-    margin-bottom: 25px ;
-}
+/* .nav .text-h{
+    margin-bottom: 20px ; }*/
+
 /* .track .nav{        
     height: 164px;
     margin-left: 32px;
     margin-top: 26px;
 } */
+
+
+
 .track .nav h6{
     color: #7078C9;
     font-weight: 400;
