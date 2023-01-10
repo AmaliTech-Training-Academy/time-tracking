@@ -447,7 +447,7 @@ width: 327px;
       justify-content: center;
       align-items: center;
      position: relative;
-     top: 45rem;
+     top: 20rem;
      margin-top: -1200px;
      width: 375px;
   }
@@ -457,6 +457,11 @@ width: 327px;
       margin-bottom: 120px;
       height: 160px;
       order: 1;
+  }
+  .sing{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
   }
   
   .report .image{
@@ -475,6 +480,7 @@ width: 327px;
     margin-bottom: 0px;
     font-family: 'Rebik';
     line-height: 17.8px;
+    margin-left: 12px;
 }
 .report h1{
     font-family: 'Rebik';
@@ -483,15 +489,16 @@ width: 327px;
     line-height: 28.44px;
 }
 .track.profile{
-    width: 380px;
+    width: 327px;
     height: 203px;
     margin-top: -220px;
 }
 .track .nav{
     height: 164px;
-    margin-left: 32px;
+    margin-left: 0;
     margin-top: -237px;
     display: flex;
+    width: 317px;
 }
 .track .work{
     width: 327px;
