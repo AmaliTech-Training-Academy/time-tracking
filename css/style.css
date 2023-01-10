@@ -356,9 +356,9 @@ margin-top: -51px;
     line-height: 28.44px;
 }
 .track.profile{
-    width: 380px;
+    width: 370px;
     height: 203px;
-    margin-top: -220px;
+    margin-top: 300px;
 }
 .track .nav{
     height: 164px;
@@ -429,7 +429,9 @@ width: 327px;
     height: 78px;
     background: #7335D2;
 }
-    }
+.track .social .me .person{
+    background-color: yellow;
+}
 
 
 @media only screen and (max-width:375px){
