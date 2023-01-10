@@ -320,7 +320,7 @@ margin-top: -51px;
       align-items: center;
      position: relative;
      top: 45rem;
-     margin-top: -1200px;
+    margin-top: -560px;
      width: 375px;
   }
 .track  .report{
@@ -333,6 +333,7 @@ margin-top: -51px;
   
   .report .image{
       width: 64px;
+      ;
   } 
  .track .name{
     margin-left: 50px;
