@@ -19,10 +19,11 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .container{
-    width: 1110px;
+     width: 1110px; 
     height: 518px;
     display: grid;
-     grid-template-columns: repeat(4,1fr); 
+     /* grid-template-columns: repeat(4,1fr);  */
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 30px;
 }
 
@@ -155,9 +156,10 @@ margin-top: -51px;
 }
 
 .picture {
-    background: #FF8B64;
+     background: #FF8B64; 
     height: 160px;
     width: 255px;
+    border-radius: 10px;
     
 
 }
@@ -213,7 +215,8 @@ margin-top: -51px;
     background: #4BCF82;
     height: 160px;
     width: 255px;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    border-radius: 10px; 
 
 }
 .execise .table img{
@@ -226,8 +229,9 @@ margin-top: -51px;
 .game{
     background:#55C2E6;
     height: 160px;
-    width: 228lpx;
+    width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .play .game img{
     margin-left: 150px;
@@ -244,6 +248,7 @@ margin-top: -51px;
     height: 160px;
     width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .social .society img{
     margin-left: 150px;
@@ -256,6 +261,7 @@ margin-top: -51px;
     height: 160px;
     width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .study .studied img{
     margin-left: 150px;
@@ -272,17 +278,46 @@ margin-top: -51px;
 .me{
     background: #F1C75B;
     height: 160px;
-    width: 245px;
+    width: 255px;
     box-sizing: border-box;
+     border-radius: 10px; 
 }
 .track .person img{
     margin-left: 150px;
     width: 78px;
     height: 78px;
-    background: #F1C75B;
+     background: #F1C75B; 
 
     }
 
+    @media only screen and (max-width:375px){
+        body{
+            width: 375px;
+            justify-content: center;
+            align-items: center;
+         
+        
+      
+          }
+          .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           position: relative; 
+           top: 45rem;
+           margin-top: -1200px;
+           width: 375px;
+        }
+
+        .second{
+            margin-bottom: 72px;
+        }
+
+       
+        
+    }
+    
+/* 
 @media only screen and (max-width:375px){
     body{
       width: 375px;
@@ -408,4 +443,4 @@ width: 327px;
     height: 78px;
     background: #7335D2;
 }
-}
+} *
