@@ -81,17 +81,17 @@ height: 354px;
  .track .nav{
     background-color: #1C204B;
     width: 255px;
-    height: 150px;
+    height: 170px;
 border-radius: 20px;
 padding: 25px;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: 1;
-margin-top: 0;
+margin-top: -21px;
 
 
 
+}
+
+.track .nav-items{
+    margin-top: -27px;
 }
 
 .nav .txt-h{
@@ -155,6 +155,7 @@ margin-top: 0;
     background: #FF8B64;
     height: 160px;
     width: 255px;
+    border-radius: 10px;
     
 
 }
@@ -210,7 +211,8 @@ margin-top: 0;
     background: #4BCF82;
     height: 160px;
     width: 255px;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    border-radius: 10px; 
 
 }
 .execise .table img{
@@ -223,8 +225,9 @@ margin-top: 0;
 .game{
     background:#55C2E6;
     height: 160px;
-    width: 228lpx;
+    width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .play .game img{
     margin-left: 150px;
@@ -241,6 +244,7 @@ margin-top: 0;
     height: 160px;
     width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .social .society img{
     margin-left: 150px;
@@ -253,6 +257,7 @@ margin-top: 0;
     height: 160px;
     width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .study .studied img{
     margin-left: 150px;
@@ -269,8 +274,9 @@ margin-top: 0;
 .me{
     background: #F1C75B;
     height: 160px;
-    width: 245px;
+    width: 255px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 .track .person img{
     margin-left: 150px;
@@ -280,22 +286,7 @@ margin-top: 0;
 
     }
 
-    @media only scree and (max-width:375px){
-        body{
-            width: 375px;
-        }
-
-        .container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            top: 45rem;
-        }
-        .track .report{
-            width:372px;
-            display: flex;
-            flex-direction: column;
-        }
+    @media only screen and (max-width:375px){
+       
+        
     }
