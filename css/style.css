@@ -91,7 +91,7 @@ margin-top: -21px;
 }
 
 .track .nav-items{
-    margin-top: -27px;
+    margin-top: 16px;
 }
 
 .nav .txt-h{
@@ -141,6 +141,7 @@ margin-top: -21px;
     flex-direction: column;
     
 }
+
 .track .work{
   position: relative;
     width: 300px;
@@ -245,6 +246,7 @@ margin-top: -21px;
     width: 255px;
     box-sizing: border-box;
     border-radius: 10px;
+    margin-top: 116px;
 }
 .social .society img{
     margin-left: 150px;
@@ -287,6 +289,164 @@ margin-top: -21px;
     }
 
     @media only screen and (max-width:375px){
-       
-        
-    }
+
+        body{
+            width: 375px;
+            justify-content: center;
+            align-items: center;
+           position: relative;
+           top: 45rem;
+          }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           position: relative;
+           top: 45rem;
+           margin-top: -1200px;
+           width: 375px;
+          
+        }
+
+.second{
+margin-bottom: 73px;
+}
+
+.track .report{
+    height: 133px;
+   
+  
+}
+ .profile {
+    height: 203px;
+    margin-bottom: -6px;
+   
+}
+   .track .nav{
+    height: 70px;
+   } 
+.track .nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+
+.report-text h6{
+    margin-top: -250px;
+    white-space: pre-wrap;
+  
+}
+.full-text  h1{
+font-size: 17px;
+line-height: 28px;
+font-weight: 300;
+
+
+}
+
+.report .full-text{
+    margin-top: 186px;
+    margin-left: 81px;
+    white-space: nowrap;
+
+}
+.jeremy img{
+   margin-left: -12px;
+}
+
+.second .track {
+    height: 160px;
+   
+}
+.second .execise{
+    margin-top: 21px;
+    height: 160px;
+}
+.track .hours{
+height: 134px;
+border-radius: 15px;
+}
+.track .picture{
+    height: 78px;
+}
+
+ .track .hours h1{
+    font-size: 35px;
+    margin-top: 14px;
+    margin-left: 16px;
+    position: relative;
+    
+  
+}
+.num-text{
+    margin-top: -55px;
+    margin-left: 103px;
+    position: absolute;
+}
+
+.work-text{
+    margin-left: -13px;
+    margin-top: -8px;
+}
+.ex-text{
+    margin-left: -13px;
+    margin-top: -8px;
+}
+.execise .table{
+    height: 78px;
+}
+/* .real h1{
+    font-size: 35px;
+    margin-top: 14px;
+    margin-left: 16px;
+    position: relative;
+} */
+/* .hours .real h6{
+    margin-left: 32px;
+    margin-top: 30px;    
+
+} */
+/* .hours .real .h1{
+    font-size: 35px;
+    margin-top: 14px;
+    margin-left: 16px;
+    position: relative;   
+} */
+
+ .last5 {
+margin-top: -55px;
+margin-left: 103px;
+position: absolute;
+}
+.threetwo{
+    margin-top: -4px;
+    margin-left: -10px; 
+}
+ .fourhrs {
+    margin-top: -4px;
+    margin-left: -10px;
+}
+.thirdbox{
+    margin-top: -84px;
+}
+.social{
+    margin-top: 34px;
+} 
+/* .second .thirdbox{
+height: 160px;
+} */
+.game{
+    height: 78px;
+}
+ 
+
+
+}
+
+
+
+
+    
