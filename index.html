@@ -7,42 +7,27 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="css/style.css">
- <script src = "index.js"></script>
     <title>Frontend Mentor | Time tracking dashboard</title>
+    <script src="js/index.js" defer></script>
 
 </head>
 <body>
   <section class="container">
     <div class="track profile">
-
       <div class="report">
-
-       
-        <div class = "jeremy">
-        <img src="images/image-jeremy.png" alt=""></div>
-
-        <div class = full-text>
-        <div class = "report-text">
+        <img src="./images/image-jeremy.png" alt="">
         <h6>Report for</h6>
-      </div>
-
-        <!-- <div class = "name"> -->
-        <h1>Jeremy Robson</h1>
-      <!-- </div> -->
-
-      
-    </div>
-      
-
+        <h2>Jeremy Robson</h2>
       </div>
 
     
       <div class="nav">
-        <div class = "nav-items">
-          <h6 class = "text-h"> Daily</h6>
-           <h5 class = "text-h">Weekly</h5>
-           <h4 class = "text-h">Monthly</h4>  
-      </div>
+        <div class = "btns">
+          <button id="daily-btn">Daily</button>
+          <button id="weekly-btn">Weekly</button>
+          <button id = "monthly-btn">Monthly</button>
+          
+        </div>
       </div>
     </div>
 
@@ -51,26 +36,29 @@
     <div class="track work">
       <div class="hours">
         <div class="real">
-
-          <div class = "work-text">
         <h6>Work</h6>
-      </div>
         <div class="image">
         <img src="./images/icon-ellipsis.svg" alt="">
         </div>
         </div>
-      
-        <div class = "threetwo"> 
-        <h1>32 hrs</h1>
-       </div>
-      
-        <div class = "num-text">
-        <p>Last week 36 hrs </p>
-      </div>
+        <div class="hrs daily">
+          <h3>5hrs</h3>
+          <p>Yesterday-7hrs</p>
+        </div>
+        <div class="hrs weekly active">
+        <h3>32 hrs</h3>
+        <p>Last week-36hrs </p>
+        </div>
+        <div class="hrs monthly">
+         <h3>103hrs</h3>
+          <p>Last Month 128hrs </p>
+        </div>
+        
       </div>
       <div class="picture">
       <img src="./images/icon-work.svg">
       </div>
+
       <br>
       <br>
       <br>
@@ -81,20 +69,23 @@
     <div class="track execise" >
       <div class="hours">
         <div class="real">
-          <div class = "ex-text">
           <h6>Exercise</h6>
-        </div>
           <div class="image">
           <img src="images/icon-ellipsis.svg" alt="">
           </div>   
         </div>
-        <div class ="fourhrs">
-      <h1>4 hrs</h1>
-    </div>
-
-      <div class = "last5">
+        <div class="hrs daily">
+        <h3>1hrs</h3>
+        <p>Yesterday-1hrs</p>
+        </div>
+        <div class="hrs weekly active">
+      <h3>4 hrs</h3>
       <p>Last week 5 hrs</p>
-    </div>
+        </div>
+      <div class="hrs monthly">
+        <h3>11hrs</h3>
+        <p>Last week 18 hrs</p>
+        </div>
     </div>
     <div class="table">
       <img src="images/icon-exercise.svg">
@@ -102,48 +93,53 @@
     </div>
     </div>
     <div class="second">
-      <div class = "thirdbox">
     <div class="track play">
       <div class="hours">
         <div class="real">
-          <div class = "work-text">
           <h6>Play</h6>
-        </div>
-
           <div class="image">
           <img src="images/icon-ellipsis.svg" alt="">
           </div>
           </div>
-
-<div class = "threetwo">
-        <h1>10 hrs</h1></div>
-
-        <div class ="num-text">
-        <p>Last week 8 hrs</p></div>
+          <div class="hrs daily">
+            <h3>1hrs</h3>
+            <p>Yesterday-2hrs</p>
+          </div>
+          <div class="hrs weekly active">
+        <h3>10 hrs</h3>
+        <p>Last week 8 hrs</p>
+        </div>
+        <div class="hrs monthly">
+          <h3>23 hrs</h3>
+          <p>Last Month 29hrs</p>
+        </div>
       </div>
       <div class="game">
       <img src="images/icon-play.svg">
       </div>
     </div>
-  </div>
-
+      
       <div class="track social">
         <div class="hours">
         <div class="real">
-          <div class ="work-text">
-          <h6>Social</h6></div>
+          <h6>Social</h6>
           <div class="image">
           <img src="images/icon-ellipsis.svg" alt="">
         </div>
         </div>
-        <div class = "threetwo">
-          <h1>4 hrs</h1></div>
-          <div class = "num-text">
-            <p> Last week 10 hrs</p>
+        <div class="hrs daily">
+          <h3>1 hr</h3>
+        <p>Yesterday-3hrs</p>
+              </div>
+              <div class="hrs weekly active">
+          <h3>4 hrs</h3>
+          <p> Last week 10 hrs</p>
           </div>
-          
+          <div class="hrs monthly">
+            <h3> 21 hrs</h3>
+            <p>Last Month 23hrs</p>
+          </div>
         </div>
-
         <div class="society">
           <img src="images/icon-social.svg">
         </div>
@@ -152,50 +148,54 @@
     </div>
     
       <div class="second">
-        <div class = "thirdbox">
         <div class="track study">
           <div class="hours">
         <div class="real">
-          <div class = "work-text">
-          <h6>Study</h6></div>
+          <h6>Study</h6>
           <div class="image">
           <img src="images/icon-ellipsis.svg" alt="">
           </div>
           </div>
-          <div class = "threetwo">
-            <h1>4 hrs</h1></div>
-            <div class = "num-text">
-            <p> Last week 7 hrs</p></div>
+          <div class="hrs daily">
+            <h3>0 hr</h3>
+            <p>Yesterday-1hr</p>
+          </div>
+          <div class="hrs weekly active">
+            <h3>4 hrs</h3>
+            <p> Last week 7 hrs</p>
+            </div>
+            <div class="hrs monthly">
+              <h3>13 hrs</h3>
+              <p>Last Month 19hrs</p>
+            </div>
           </div>
           <div class="studied">
             <img src="images/icon-study.svg">
           </div>
-        </div>
-       
           <div class="track social me">
             <div class="hours">
             <div class="real">
-              <div class = "work-text">
-              <h6>Self Care</h6></div>
-              <div class="study">
+              <h6>Self Care</h6>
               <div class="image">
               <img src="images/icon-ellipsis.svg">
               </div>
               </div>
+              <div class="hrs daily">
+                <h3>0 hr</h3>
+                <p>Yesterday-1hr</p>
               </div>
-              <div class = "threetwo">
-              <h1>2 hrs</h1></div>
-
-              <div class = "num-text">
-                <p>Last week 2 hrs</p>
+              <div class="hrs weekly active">
+              <h3>2 hrs</h3>
+              <p>Last week 2 hrs</p>
               </div>
-            
+              <div class="hrs monthly">
+                <h3>7 hrs</h3>
+                <p>Last Month-11hrs</p>
+              </div>
             </div>
-          
             <div class="person">
               <img src="images/icon-self-care.svg">
             </div>
-          
           </div>
         </div>
       </div>

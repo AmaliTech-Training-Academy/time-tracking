@@ -70,12 +70,13 @@ height: 354px;
     line-height: 18px;
     margin-bottom: 3px;
 }
-.report h1{
+.report h2{
     font-weight: 300;
     font-style: 40px;
     line-height: 47px;
     color: #FFFFFF;
     font-size: 40px;
+    
 
 }
 
@@ -106,33 +107,24 @@ margin-top: -21px;
     margin-top: 26px;
 } */
 
-
-
-.track .nav h6{
-    color: #7078C9;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    margin-bottom: 21px;
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
-.track .nav h5{
-    /* color: #ffff; */
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    margin-bottom: 21px;
+#daily-btn, #weekly-btn, #monthly-btn{
+    margin-bottom: 10px;
+    width: 150px;
+    border: none;
     color: #7078C9;
-}
-.track .nav h4{
-    color: #7078C9;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
-    margin-bottom: 21px;
-
+    background: none;
 }
 
-.nav .text-h:hover{
+
+#daily-btn, #weekly-btn, #monthly-btn:hover{
     cursor: pointer;
      color: white; 
 
@@ -294,7 +286,22 @@ margin-top: -21px;
      background: #F1C75B; 
 
     }
+    h1{
+        display: none;
+    }   
+.daily, .monthly, .weekly{
+    display: none;
+}
 
+.daily.active, .monthly.active, .weekly.active{
+    display: flex;
+} 
+.hrs h3{
+    color: #fff;
+    font-size: 26px;
+    margin-left: 20px;
+
+}
     @media only screen and (max-width:375px){
 
         body{
@@ -302,7 +309,7 @@ margin-top: -21px;
             justify-content: center;
             align-items: center;
            position: relative;
-           top: 45rem;
+           top: -600px;
           }
 
         .container{
@@ -311,7 +318,7 @@ margin-top: -21px;
             align-items: center;
            position: relative;
            top: 45rem;
-           margin-top: -1200px;
+           margin-top: -120px;
            width: 375px;
           
         }
@@ -322,18 +329,19 @@ margin-bottom: 73px;
 
 .track .report{
     height: 133px;
-   
+    width: 300px;
   
 }
  .profile {
     height: 203px;
     margin-bottom: -6px;
-   
+    width: 327px;
+    margin-left: 38px;
 }
    .track .nav{
     height: 70px;
    } 
-.track .nav-items{
+.track .btns{
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
@@ -345,7 +353,16 @@ margin-bottom: 73px;
     white-space: pre-wrap;
   
 }
-.full-text  h1{
+.report h6{
+    margin-top: -46px;
+    font-size: 15px;
+    margin-left: 102px;
+} 
+.report h2{
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-left: 90px;
+}.full-text  h1{
 font-size: 17px;
 line-height: 28px;
 font-weight: 300;
@@ -365,7 +382,8 @@ font-weight: 300;
 
 .second .track {
     height: 160px;
-   
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 .second .execise{
     margin-top: 21px;
@@ -381,11 +399,23 @@ border-radius: 15px;
 
  .track .hours h1{
     font-size: 35px;
+    
     margin-top: 14px;
     margin-left: 16px;
     position: relative;
     
   
+}
+.track .nav{
+    height: 120px;
+    width: 300px;
+}
+.track .btns{
+
+    justify-content: space-between;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: initial;
 }
 .num-text{
     margin-top: -55px;
@@ -427,7 +457,7 @@ margin-top: -55px;
 margin-left: 103px;
 position: absolute;
 }
-.threetwo{
+h3{
     margin-top: -4px;
     margin-left: -10px; 
 }
