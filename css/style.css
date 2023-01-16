@@ -92,6 +92,7 @@ margin-top: -21px;
 
 .track .nav-items{
     margin-top: 16px;
+   
 }
 
 .nav .txt-h{
@@ -110,11 +111,12 @@ margin-top: -21px;
     margin-bottom: 21px;
 }
 .track .nav h5{
-    color: #ffff;
+    /* color: #ffff; */
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 21px;
+    color: #7078C9;
 }
 .track .nav h4{
     color: #7078C9;
@@ -127,7 +129,7 @@ margin-top: -21px;
 
 .nav .text-h:hover{
     cursor: pointer;
-    color: white;
+     color: white; 
 
 }
 
