@@ -454,6 +454,9 @@ border-radius: 15px;
     flex-direction: initial;
     margin-left: 23px;
 }
+.one{
+    display: flex;
+}
 .num-text{
     margin-top: -55px;
     margin-left: 103px;
@@ -537,6 +540,12 @@ height: 160px;
 .execise .table img{
     margin-left: 224px;
 }
+.daily .monthly{
+    display: flex;
+    }
+    .weekly{
+        display: flex;
+    }
 }
 
 
