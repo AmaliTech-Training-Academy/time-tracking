@@ -324,7 +324,7 @@ margin-top: -21px;
         }
 
 .second{
-margin-bottom: 73px;
+margin-bottom: -73px;
 }
 
 .track .report{
@@ -405,6 +405,14 @@ border-radius: 15px;
     position: relative;
     
   
+}
+.track .hours h6{
+    margin-bottom: 29px;
+
+}
+.track .hours p{
+    margin-top: 3px;
+    font-size: 13.4px;
 }
 .track .nav{
     height: 120px;
