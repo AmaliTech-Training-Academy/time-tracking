@@ -350,17 +350,18 @@ margin-bottom: -73px;
 
 .track .report{
     height: 133px;
-    width: 300px;
+    width: 327px;
   
 }
  .profile {
     height: 203px;
     margin-bottom: -6px;
     width: 327px;
-    margin-left: 38px;
+    margin-left: 2px;
 }
    .track .nav{
-    height: 70px;
+    height: 133px;
+    width: 327px;
    } 
 .track .btns{
     display: flex;
@@ -389,6 +390,9 @@ line-height: 28px;
 font-weight: 300;
 
 
+}
+.track .hours{
+    width: 327px;
 }
 
 .report .full-text{
@@ -420,8 +424,7 @@ border-radius: 15px;
 }
 
  .track .hours h1{
-    font-size: 36px;
-    
+    font-size: 32px;
     margin-top: 14px;
     margin-left: 16px;
     position: relative;
@@ -435,11 +438,11 @@ border-radius: 15px;
 .track .hours p{
     margin-top: 3px;
     font-size: 13.4px;
-}
+}/*
 .track .nav{
     height: 120px;
     width: 300px;
-}
+}*/
 .track .btns{
 
     justify-content: space-between;
@@ -472,9 +475,11 @@ margin-top: -55px;
 margin-left: 103px;
 position: absolute;
 }
-h3{
-    margin-top: -4px;
-    margin-left: -10px; 
+.hrs h3{
+    margin-top: -24px;
+    margin-left: 25px; 
+    font-size: 32px;
+
 }
  .fourhrs {
     margin-top: -4px;
@@ -493,8 +498,42 @@ height: 160px;
     height: 78px;
 }
  
-
-
+.picture{
+    width: 327px;
+}
+.table{
+    width: 327px;
+}
+.game{
+    width: 327px;
+}
+.social{
+    width: 327px;
+}
+.person{
+    width: 327px;
+}
+.studied{
+    width: 327px;
+}
+.study .studied img{
+    margin-left: 224px;
+}
+.track .person img{
+    margin-left: 224px;
+}
+.play .game img{
+    margin-left: 224px;
+} 
+.social .society img{
+    margin-left: 224px;
+}
+.track .picture img{
+    margin-left: 224px;
+}
+.execise .table img{
+    margin-left: 224px;
+}
 }
 
 
