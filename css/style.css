@@ -435,6 +435,9 @@ border-radius: 15px;
     margin-bottom: 29px;
 
 }
+.hrs .weekly{
+    display: flex;
+}
 .track .hours p{
     margin-top: 3px;
     font-size: 13.4px;
