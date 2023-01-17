@@ -7,7 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Rubik;
+    font-family: 'Rubik';
 }
 * {
     box-sizing: border-box;
@@ -98,14 +98,7 @@ margin-top: -21px;
    
 }
 
-/* .nav .text-h{
-    margin-bottom: 20px ; }*/
 
-/* .track .nav{        
-    height: 164px;
-    margin-left: 32px;
-    margin-top: 26px;
-} */
 
 .btns{
     display: flex;
@@ -113,6 +106,7 @@ margin-top: -21px;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    margin-right: 134px;
 }
 #daily-btn, #weekly-btn, #monthly-btn{
     margin-bottom: 10px;
@@ -126,9 +120,18 @@ margin-top: -21px;
 
 #daily-btn, #weekly-btn, #monthly-btn:hover{
     cursor: pointer;
-     color: white; 
+     
 
 }
+#daily-btn:hover{
+color: white;
+}
+#weekly-btn:hover{
+    color: white;
+    }
+    #monthly-btn:hover{
+        color: white;
+        }
 
 .second .hours:hover{
     cursor: pointer;
@@ -290,17 +293,35 @@ margin-top: -21px;
         display: none;
     }   
 .daily, .monthly, .weekly{
+    display: flex;
+    flex-direction: column;
+   
+} 
+.they{
+    display: block
+}
+.daily , .monthly{
+    display: none;
+}
+.weekly , .monthly{
     display: none;
 }
 
 .daily.active, .monthly.active, .weekly.active{
     display: flex;
+    
 } 
 .hrs h3{
     color: #fff;
-    font-size: 26px;
+    font-size: 56px;
     margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+ 
 
+}
+.hrs p{
+    margin-top: 30px;
 }
     @media only screen and (max-width:375px){
 
@@ -392,13 +413,14 @@ font-weight: 300;
 .track .hours{
 height: 134px;
 border-radius: 15px;
+
 }
 .track .picture{
     height: 78px;
 }
 
  .track .hours h1{
-    font-size: 35px;
+    font-size: 36px;
     
     margin-top: 14px;
     margin-left: 16px;
@@ -421,9 +443,10 @@ border-radius: 15px;
 .track .btns{
 
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: 33px;
     display: flex;
     flex-direction: initial;
+    margin-left: 23px;
 }
 .num-text{
     margin-top: -55px;
@@ -442,23 +465,7 @@ border-radius: 15px;
 .execise .table{
     height: 78px;
 }
-/* .real h1{
-    font-size: 35px;
-    margin-top: 14px;
-    margin-left: 16px;
-    position: relative;
-} */
-/* .hours .real h6{
-    margin-left: 32px;
-    margin-top: 30px;    
 
-} */
-/* .hours .real .h1{
-    font-size: 35px;
-    margin-top: 14px;
-    margin-left: 16px;
-    position: relative;   
-} */
 
  .last5 {
 margin-top: -55px;
